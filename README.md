@@ -48,6 +48,10 @@ Just follow these simple steps to enable touch events in your jQuery UI app:
 3. There is no 3. Just use jQuery UI as expected and watch it work at the touch of a finger.
 
     `<script>$('#widget').draggable();</script>`
+    
+It can also be required inside another rails CoffeeScript file.
+
+	#= require jquery.ui-touch-punch
 
 ## Contributing
 
