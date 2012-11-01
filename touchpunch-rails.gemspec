@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Simple asset gem containing jquery mobile ui touch punch.}
   gem.homepage      = ""
 
-  gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["README.md"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
