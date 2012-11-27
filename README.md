@@ -51,7 +51,7 @@ Just follow these simple steps to enable touch events in your jQuery UI app:
     
 It can also be required inside another rails CoffeeScript file.
 
-	#= require jquery.ui-touch-punch
+	#= require jquery.ui.touch-punch
 
 ## Contributing
 
