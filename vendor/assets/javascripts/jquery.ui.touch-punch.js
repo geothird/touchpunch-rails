@@ -1,3 +1,5 @@
+//= require jquery.ui.mouse
+
 /*!
  * jQuery UI Touch Punch 0.2.2
  *
