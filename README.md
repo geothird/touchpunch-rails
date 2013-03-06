@@ -20,7 +20,7 @@ _[Visit the official Touch Punch website](http://touchpunch.furf.com)._
 Add this line to your application's Gemfile:
 
     gem 'touchpunch-rails'
-
+	
 And then execute:
 
     $ bundle
@@ -28,6 +28,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install touchpunch-rails
+    
+### Requirements
+
+Add the jquery ui rails gem to your project:
+	
+	gem 'jquery-ui-rails'
 
 ## Using Touch Punch
 
@@ -49,9 +55,17 @@ Just follow these simple steps to enable touch events in your jQuery UI app:
 
     `<script>$('#widget').draggable();</script>`
     
-It can also be required inside another rails CoffeeScript file.
+## Coffeescript
+Add the following to any project file you want touch support along with the requirements below.
 
 	#= require jquery.ui.touch-punch
+	
+### Requirements
+
+Include the required jquery ui library (from jquery-ui-rails):
+	
+	#= require jquery.ui.widget
+	#= require jquery.ui.mouse
 
 ## Contributing
 
