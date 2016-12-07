@@ -1,4 +1,4 @@
-//= require jquery-ui/mouse
+//= require jquery-ui/widgets/mouse
 
 /*!
  * jQuery UI Touch Punch 0.2.2
